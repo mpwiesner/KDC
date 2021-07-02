@@ -1,8 +1,8 @@
 rightascension 197.45033 
 declination -23.38147 
-filter 4 
-obshistid 99999999 
+filter 5 
 seed 1000 
 vistime 15.0 
 nsnap 1
 object 1 197.45033 -23.38147 19.038 sed_5.65.spec 0.0099 0 0 0 0 0 point none none
+object 2 197.44703 -23.37817 14.76 galaxySED/Burst.20E09.02Z.spec.gz 0.0099 0 0 0 0 0 galaxy_z.fits 0.01 0
