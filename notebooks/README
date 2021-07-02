@@ -1,0 +1,16 @@
+LIST OF NOTEBOOK FUNCTIONS:
+
+CreateSynthLightCurvesFromKasen2017.ipynb
+	#This notebook is modified from Douglas Tucker's notebook. It outputs SED files using his original flux units into the 'kasen/temp/' directory
+CreateSynthLightCurvesFromKasen2017_ORIGINAL.ipynb
+	#This notebook is Douglas Tucker's original notebook that creates Kasen SEDs and source magnitudes
+make_instance.ipynb
+	#This notebook generates instance files for a kilonova. These can be run to make all instance files for PhoSim.
+phosim_run.ipynb
+	#This notebook takes output FITS images from PhoSim runs and displays them.
+plotter.ipynb
+	#This reads in magnitude data for a kilonova and plots light curves, both individual and 6-band.
+plotter_kasen-single.ipynb
+	#This plots a single SED
+plotter_kasen.ipynb
+	#This works with 'CreateSynthLightCurvesFromKasen2017.ipynb.' It reads in the temp files and converts units to PhoSim units and prints SED files in kasen/SEDs. 

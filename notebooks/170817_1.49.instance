@@ -1,9 +1,0 @@
-rightascension 209.27
-declination -23.381472
-filter 1
-obshistid 99999999
-seeing 0.67
-seed     1000
-vistime 15.0
-nsnap 1
-object 1 209.27 -23.381472 18.66 sed_flat.txt 0 0 0 0 0 0 point none none
