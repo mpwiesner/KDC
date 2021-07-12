@@ -14,3 +14,5 @@ plotter_kasen-single.ipynb
 	#This plots a single SED
 plotter_kasen.ipynb
 	#This works with 'CreateSynthLightCurvesFromKasen2017.ipynb.' It reads in the temp files and converts units to PhoSim units and prints SED files in kasen/SEDs. 
+read_instance.ipynb
+	#This is designed to read object catalogs used as PhoSim instance files and to plot the positions of these objects. 
