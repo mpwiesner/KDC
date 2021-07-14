@@ -1,5 +1,7 @@
 pro header_fix
 
+;This routine reads in a single PhoSim image and fixes the header parameters so 
+;it can display properly in DS9.
 
 h = headfits('lsst_e_159479_f1_R02_S21_E000.fits') 
 sxdelpar, h, ['RADESYS']

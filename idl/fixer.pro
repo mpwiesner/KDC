@@ -1,5 +1,8 @@
 pro fixer
 
+;This routine reads in a list of PhoSim images and fixes the header parameters so 
+;it can display properly in DS9.
+
 name =  ['lsst_e_159479_f1_R01_S00_E000.fits', 'lsst_e_159479_f1_R01_S01_E000.fits', $
  'lsst_e_159479_f1_R01_S02_E000.fits', 'lsst_e_159479_f1_R01_S10_E000.fits', $
  'lsst_e_159479_f1_R01_S11_E000.fits', 'lsst_e_159479_f1_R01_S12_E000.fits', $
