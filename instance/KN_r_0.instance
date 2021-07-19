@@ -1,8 +1,2 @@
-rightascension 197.45033 
-declination -23.38147 
-filter 2 
-seed 1000 
-vistime 15.0 
-nsnap 1
-object 1 197.45033 -23.38147 17.637 kasen/sed_1.65.spec 0.0099 0 0 0 0 0 point none none
-object 2 197.44703 -23.37817 14.76 galaxySED/Burst.20E09.02Z.spec.gz 0.0099 0 0 0 0 0 galaxy_r.fits 0.01 0
+object 1 57.989746 -31.45243137 17.637 kasen/sed_1.65.spec 0.0099 0 0 0 0 0 point none none
+object 33889 57.98644604060054 -31.44913136508897 17.5 galaxySED/Inst.25E09.02Z.spec.gz 0.0099 0 0 0 0 0 sersic2d 4 3 88.9216574 4 CCM 3.09503567 4.929006 97 CCM 0.0347803061 3.1
