@@ -3,8 +3,11 @@ pro header_fix
 ;This routine reads in a single PhoSim image and fixes the header parameters so 
 ;it can display properly in DS9.
 
-h = headfits('lsst_e_159479_f1_R02_S21_E000.fits') 
-sxdelpar, h, ['RADESYS']
+for i=10, 20 DO BEGIN
+	filename = "~/Desktop/woof/lsst_"+strtrim(strcompress(i),2)+"_kn.fits"
+
+	h = headfits(filename) 
+	sxdelpar, h, ['RADESYS']
 ;sxaddpar, h, 'RADESYS ','J2000','RA-DEC system '
 
 ;sxdelpar, h, ['CTYPE1']
@@ -16,9 +19,10 @@ sxdelpar, h, ['RADESYS']
 
 ;sxdelpar, h, ['CUNIT1']
 ;sxdelpar, h, ['CUNIT2']
-sxdelpar, h, ['CTYPE1']
-sxaddpar,h,'CTYPE1','RA---TAN' 
+	sxdelpar, h, ['CTYPE1']
+	sxaddpar,h,'CTYPE1','RA---TAN' 
 
-modfits,'lsst_e_159479_f1_R02_S21_E000.fits',0,h 
+	modfits,filename,0,h 
+	endfor
 
 end
