@@ -8,6 +8,8 @@ Combine_throughputs.ipynb
 	#This notebook reads in throughput files from LSST database and produces a single throughput file to be read by CreateSynthLightCurvesFromKasen2017.ipynb.
 examine_instance.ipynb
 	#This notebook reads in lists of data from the Run 1.2p instance catalogs and plots things like MJD.
+IR.ipynb
+	#This is a copy of CreateSynthLightCurves... that uses the bandpass for K-band IR. This was used to find magnitudes in K-band. 
 join_kasen.ipynb
 	#This notebook joins the red and blue Kasen models and plots them. This is how we reproduced the Kasen paper plot. 
 make_instance.ipynb
