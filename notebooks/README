@@ -22,6 +22,8 @@ plotter_2.ipynb
 	#Same as for plotter, but it plots light curves for simulated Kasen model magnitudes. It also plots the real GW170817 magnitudes.
 plotter_kasen-single.ipynb
 	#This plots a single SED
+plotter_IRTF.ipynb
+	#Used to create Kband light curve graphs days after collision
 read_instance.ipynb
 	#This is designed to read object catalogs used as PhoSim instance files and to plot the positions of these objects. 
 test_kasen.ipynb
