@@ -1,0 +1,48 @@
+LIST OF NOTEBOOK FUNCTIONS:
+
+CreateSynthLightCurvesFromKasen2017.ipynb
+	#This notebook is modified from Douglas Tucker's notebook. It outputs SED files into the 'kasen/temp/' directory.
+CreateSynthLightCurvesFromKasen2017_ORIGINAL.ipynb
+	#This notebook is Douglas Tucker's original notebook that creates Kasen SEDs and source magnitudes
+Combine_throughputs.ipynb
+	#This notebook reads in throughput files from LSST database and produces a single throughput file to be read by CreateSynthLightCurvesFromKasen2017.ipynb.
+examine_instance.ipynb
+	#This notebook reads in lists of data from the Run 1.2p instance catalogs and plots things like MJD.
+join_kasen.ipynb
+	#This notebook joins the red and blue Kasen models and plots them. This is how we reproduced the Kasen paper plot. 
+make_instance.ipynb
+	#This notebook generates instance files for a kilonova. These can be run to make all instance files for PhoSim.
+magnitude.ipynb
+	#This is a copy of CreateSynthLightCurves... that includes the bandpass file for K-band. Use this to calculate magnitudes using various Kasen models.
+phosim_run.ipynb
+	#This notebook takes output FITS images from PhoSim runs and displays them.
+plotter.ipynb
+	#This reads in magnitude data for a kilonova and plots light curves, both individual and 6-band.
+plotter_2.ipynb
+	#Same as for plotter, but it plots light curves for simulated Kasen model magnitudes. It also plots the real GW170817 magnitudes.
+plotter_kasen-single.ipynb
+	#This plots a single SED
+plotter_IRTF.ipynb
+	#Used to create Kband light curve graphs days after collision
+read_instance.ipynb
+	#This is designed to read object catalogs used as PhoSim instance files and to plot the positions of these objects. 
+test_kasen.ipynb
+	#This notebook runs the code that came with the Kasen models.
+
+## Note that the DP0 notebooks are designed to run on data.lsst.cloud, the IDF.
+DP0/single_image.ipynb
+	#This reads RA and DEC and fetches a coadd image.
+DP0/square_degree.ipynb
+	#This notebooks produces images for 25 fields, assembling a full square_degree. 
+DP0/square_search.ipynb
+	#This does a TAP query to find objects within a 1 square degree box. It does it in 4 individual pieces so it doesn't crash.
+
+obsolete
+	#Contains notebooks not being used.
+
+input
+	#LSST.dat is the LSST filter curves
+	#gw170817.data is the magnitude data for GW170817
+	#magnitudes.txt is the simulated magnitudes that is read in by plotter_2
+	#output.file is a sample SED
+	#sed.list contains the list of days after kilonova 
